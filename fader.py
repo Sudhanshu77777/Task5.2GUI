@@ -1,7 +1,7 @@
 import tkinter as tk  # Import Tkinter to create the graphical user interface (GUI)
 from RPi import GPIO   # Import the GPIO module for controlling the Raspberry Pi's pins
 
-# Set up the GPIO mode and specify the pin for the LED
+# Set up the GPIO mode and specify pin for the LED
 GPIO.setmode(GPIO.BOARD)  # Use BOARD numbering for the GPIO pins
 LED_PIN = 11  # Assign GPIO pin 11 for the LED connection
 GPIO.setup(LED_PIN, GPIO.OUT)  # Configure this pin as an output to control the LED
